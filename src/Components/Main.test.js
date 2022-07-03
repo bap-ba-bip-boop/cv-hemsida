@@ -25,3 +25,5 @@ it(`Renders ${typeof Main} Element`, () => {
   expect(typeof container.firstChild).toBe(typeof sut);
 }
 )
+
+//make sure that only the activeElement is showing?

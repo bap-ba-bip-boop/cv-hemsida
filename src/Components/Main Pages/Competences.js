@@ -1,26 +1,29 @@
+import appSettings from '../../Settings/Components/Main Pages/Skills.json';
 import React from 'react'
 
 export const Competences = () => {
   return (
     <>
-        <div>
-            <h3>Språk</h3>
-            <p>Svenska: modersmål</p>
-            <p>Engelska: flytande</p>
-        </div>
-        <div>
-            <h3>Prokrammeringsspråk och färdigheter</h3>
-            <p>C#, Javascript, HTML, CSS, Java</p>
-            <p>React, SQL, EntityFramework, MsTest, Automapper</p>
-            <p>Windows OS, Linux OS</p>
-            <p>Visual Studio 2022, Visual Studio Code</p>
-            <p>MS Excel, MS Office, Mathlab</p>
-        </div>
-        <div>
-            <h3>Språk</h3>
-            <p>Svenska: modersmål</p>
-            <p>Engelska: flytande</p>
-        </div>
+        <section>
+            <h3>{appSettings.languageTitle}</h3>
+            {appSettings.spokenLanguages.map(language =>
+            <div key={language.languageName}>
+            <span>{language.languageName}</span>
+            <span>: {language.level}</span>
+            </div>
+              )
+            }
+        </section>
+        <section>
+            <h3>{appSettings.ITStuffTitle}</h3>
+            {appSettings.ITStuff.map(category =>
+                <div key ={category.CategoryName}>
+                  <p>{category.CategoryName}</p>
+                  {category.items.map(item => <span key={item}>{item}, </span>)} 
+                </div>
+              )
+            }
+        </section>
     </>
   )
 }

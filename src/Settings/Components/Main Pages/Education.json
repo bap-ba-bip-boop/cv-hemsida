@@ -1,0 +1,39 @@
+{
+    "Educations": [
+        {
+            "name": ".NETDeveloper",
+            "SchoolName": "KYH",
+            "place": "Stockholm",
+            "startDate": "2021",
+            "endDate": "nu"
+        },
+        {
+            "name": "Objektorienterad programmering i Java",
+            "SchoolName": "Luleå tekniska universitet",
+            "place": "Distas",
+            "startDate": "2021",
+            "endDate": "2022"
+        },
+        {
+            "name": "Programmering i Java",
+            "SchoolName": "\"universitetet i gävle\"",
+            "place": "Distas",
+            "startDate": "2020",
+            "endDate": "2021"
+        },
+        {
+            "name": "Civilingenjör inom spel- och programvaruteknik",
+            "SchoolName": "Blekinges Tekniska Högskol",
+            "place": "Karlskrona",
+            "startDate": "2016",
+            "endDate": "2019"
+        },
+        {
+            "name": "Informations- och mediateknik",
+            "SchoolName": "Thorildsplans gymnasium",
+            "place": "Stockholm",
+            "startDate": "2013",
+            "endDate": "2016"
+        }
+    ]
+}
