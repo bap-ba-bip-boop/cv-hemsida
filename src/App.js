@@ -26,7 +26,13 @@ export const App = () => {
       WorkplacesPage = "WorkplacesPage"
       EducationPage = "EducationPage"
       />
-      <Main/>
+      <Main
+      activePage = {activePage}
+      SummaryPage = "SummaryPage"
+      SkillsPage = "SkillsPage"
+      WorkplacesPage = "WorkplacesPage"
+      EducationPage = "EducationPage"
+      />
       <Footer/>
     </>
   )

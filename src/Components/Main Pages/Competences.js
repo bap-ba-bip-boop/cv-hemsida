@@ -3,7 +3,6 @@ import React from 'react'
 export const Competences = () => {
   return (
     <>
-        Sidebar
         <div>
             <h3>Språk</h3>
             <p>Svenska: modersmål</p>
