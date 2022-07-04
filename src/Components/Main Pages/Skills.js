@@ -1,7 +1,7 @@
 import appSettings from '../../Settings/Components/Main Pages/Skills.json';
 import React from 'react'
 
-export const Competences = () => {
+export const Skills = () => {
   return (
     <>
         <section>

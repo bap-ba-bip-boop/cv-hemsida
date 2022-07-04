@@ -1,5 +1,6 @@
+import React, { useState } from 'react';
 
-import React, { useState } from 'react'
+import {appSettings} from './Settings/App.json';
 import { Header } from './Components/Header';
 import { Main } from './Components/Main';
 import { Footer } from './Components/Footer';
@@ -7,12 +8,10 @@ import { Navbar } from './Components/Navbar';
 
 export const App = () => {
 
-  const [activePage, SetActivePage] = useState("SummaryPage");
+  const [activePage, SetActivePage] = useState(appSettings.summaryPage);
 
   const changeActivePage = input =>
   {
-    console.log("prev-page:" + activePage + "\nnew-page: " + input);
-
     SetActivePage(input);
   }
 
@@ -21,17 +20,17 @@ export const App = () => {
       <Header/>
       <Navbar
       buttonAction = {changeActivePage}
-      SummaryPage = "SummaryPage"
-      SkillsPage = "SkillsPage"
-      WorkplacesPage = "WorkplacesPage"
-      EducationPage = "EducationPage"
+      SummaryPage = {appSettings.summaryPage}
+      SkillsPage = {appSettings.skillsPage}
+      WorkplacesPage = {appSettings.workplacesPage}
+      EducationPage = {appSettings.educationPage}
       />
       <Main
       activePage = {activePage}
-      SummaryPage = "SummaryPage"
-      SkillsPage = "SkillsPage"
-      WorkplacesPage = "WorkplacesPage"
-      EducationPage = "EducationPage"
+      SummaryPage = {appSettings.summaryPage}
+      SkillsPage = {appSettings.skillsPage}
+      WorkplacesPage = {appSettings.workplacesPage}
+      EducationPage = {appSettings.educationPage}
       />
       <Footer/>
     </>
