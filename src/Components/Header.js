@@ -3,7 +3,7 @@ import appSettings from '../Settings/Components/Header.json';
 
 export const Header = () => {
   return (
-    <header>
+    <header className="temp">
       <h2>{appSettings.Title}</h2>
       <h2>{appSettings.Name}</h2>
       <p>{appSettings.Email}</p>

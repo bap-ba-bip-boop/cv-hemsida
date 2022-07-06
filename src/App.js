@@ -6,6 +6,7 @@ import { Main } from './Components/Main';
 import { Footer } from './Components/Footer';
 import { Navbar } from './Components/Navbar';
 
+
 export const App = () => {
 
   const [activePage, SetActivePage] = useState(appSettings.summaryPage);
@@ -16,7 +17,7 @@ export const App = () => {
   }
 
   return (
-    <>
+    <div className = "siteContainer">
       <Header/>
       <Navbar
       buttonAction = {changeActivePage}
@@ -33,7 +34,7 @@ export const App = () => {
       EducationPage = {appSettings.educationPage}
       />
       <Footer/>
-    </>
+    </div>
   )
 }
 
