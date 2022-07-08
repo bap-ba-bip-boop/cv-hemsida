@@ -9,7 +9,7 @@ import { Navbar } from './Components/Navbar';
 
 export const App = () => {
 
-  const [activePage, SetActivePage] = useState(appSettings.summaryPage);
+  const [activePage, SetActivePage] = useState(appSettings.pages[0].Page);
 
   const changeActivePage = input =>
   {
@@ -21,17 +21,10 @@ export const App = () => {
       <Header/>
       <Navbar
       buttonAction = {changeActivePage}
-      SummaryPage = {appSettings.summaryPage}
-      SkillsPage = {appSettings.skillsPage}
-      WorkplacesPage = {appSettings.workplacesPage}
-      EducationPage = {appSettings.educationPage}
+      Pages = {appSettings.pages}
       />
       <Main
       activePage = {activePage}
-      SummaryPage = {appSettings.summaryPage}
-      SkillsPage = {appSettings.skillsPage}
-      WorkplacesPage = {appSettings.workplacesPage}
-      EducationPage = {appSettings.educationPage}
       />
       <Footer/>
     </div>

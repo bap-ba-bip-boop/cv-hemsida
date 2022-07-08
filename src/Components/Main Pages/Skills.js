@@ -1,26 +1,33 @@
 import appSettings from '../../Settings/Components/Main Pages/Skills.json';
+
+import {LanguageComponent} from './Main Components/LanguageComponent'
 import React from 'react'
+import { ITStuffComponent } from './Main Components/ITStuffComponent';
 
 export const Skills = () => {
   return (
     <>
         <section>
             <h3>{appSettings.languageTitle}</h3>
-            {appSettings.spokenLanguages.map(language =>
-            <div key={language.languageName}>
-            <span>{language.languageName}</span>
-            <span>: {language.level}</span>
-            </div>
+            {
+            appSettings.spokenLanguages.map((language,i) =>
+              <LanguageComponent
+              key={i}
+              languageName={language.languageName}
+              level={language.level}
+              />
               )
             }
         </section>
         <section>
             <h3>{appSettings.ITStuffTitle}</h3>
-            {appSettings.ITStuff.map(category =>
-                <div key ={category.CategoryName}>
-                  <p>{category.CategoryName}</p>
-                  {category.items.map(item => <span key={item}>{item}, </span>)} 
-                </div>
+            {
+            appSettings.ITStuff.map( (category,i) =>
+                <ITStuffComponent
+                key={i}
+                CategoryName={category.CategoryName}
+                items={category.items}
+                />
               )
             }
         </section>

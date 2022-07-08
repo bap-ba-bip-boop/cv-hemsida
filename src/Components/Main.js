@@ -4,14 +4,16 @@ import {Summary} from './Main Pages/Summary'
 import {Skills} from './Main Pages/Skills'
 import {Workplaces} from './Main Pages/Workplaces'
 import {Education} from './Main Pages/Education'
+import {Links} from './Main Pages/Links'
 
 export const Main = props => {
   return (
-    <main>
-      {props.activePage === props.SummaryPage && <Summary/>}
-      {props.activePage === props.SkillsPage && <Skills/>}
-      {props.activePage === props.WorkplacesPage && <Workplaces/>}
-      {props.activePage === props.EducationPage && <Education/>}
+    <main className='siteMain'>
+      {props.activePage === Summary.name && <Summary/>}
+      {props.activePage === Skills.name && <Skills/>}
+      {props.activePage === Workplaces.name && <Workplaces/>}
+      {props.activePage === Education.name && <Education/>}
+      {props.activePage === Links.name && <Links/>}
     </main>
   )
 }
