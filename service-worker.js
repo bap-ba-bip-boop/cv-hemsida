@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cv-hemsida/react-gh-pages/precache-manifest.5e59eb36976b626d1dbbe60e5183c152.js"
+  "/cv-hemsida/precache-manifest.94f26846cdf51ec55114ccc6210e125d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/cv-hemsida/react-gh-pages/index.html", {
+workbox.routing.registerNavigationRoute("/cv-hemsida/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
