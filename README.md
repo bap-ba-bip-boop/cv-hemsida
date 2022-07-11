@@ -4,5 +4,5 @@ Wanted to try some new things with this project including: testing react compone
 
 KeyWords:
 - React
-- Tests
-- Sass
+- React Tests
+- Github Pages
