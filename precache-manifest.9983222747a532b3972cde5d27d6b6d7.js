@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/cv-hemsida/static/js/3.c70b6b5b.chunk.js"
   },
   {
-    "revision": "af3e866f1c37a309e37746207063d643",
+    "revision": "b19a621e74785a9b1e088882baa2f238",
     "url": "/cv-hemsida/index.html"
   }
 ];
