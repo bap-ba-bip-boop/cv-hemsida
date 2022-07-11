@@ -1,0 +1,13 @@
+{
+    "links":
+    [
+        {
+            "linkText":"linkedin",
+            "link":"https://www.linkedin.com/in/carl-bergqvist-b06875195"
+        },
+        {
+            "linkText": "github",
+            "link":"https://github.com/bap-ba-bip-boop"
+        }
+    ]
+}

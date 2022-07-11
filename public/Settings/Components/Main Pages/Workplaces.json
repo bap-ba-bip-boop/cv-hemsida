@@ -1,0 +1,60 @@
+{
+    "workplaces": [
+        {
+            "role": "Admin och Kundsupport",
+            "CompanyName": "Qopla AB",
+            "place": "Stockholm",
+            "startDate": "2020",
+            "endDate": "2021",
+            "responsibilities":[
+                "Överförde restaurangers menyer i företagets system",
+                "Fixade en webshop åt kunderna",
+                "Integrerade webshoppen mot kundernas hemsidor",
+                "Förberedde kundernas hårdvara b.la. Kassadatorer, surfplattor, kvittoskrivare, kortläsare, m.m.",
+                "Kundsupport med olika ärenden"
+            ]
+        },
+        {
+            "role": "Näringslivsansvarig i studentförening",
+            "CompanyName": "Blekinges organiserade spel studenter",
+            "place": "Karlskrona",
+            "startDate": "2018",
+            "endDate": "2019",
+            "responsibilities":[
+                "Ansvarade för att bjuda in relevanta företag till en arbetsmarknadsdag föreningen anordnade.",
+                "Även arbete med administration och sekreterarjobb."
+            ]
+        },
+        {
+            "role": "Kökspersonal",
+            "CompanyName": "Blekinge studentkår",
+            "place": "Karlskrona",
+            "startDate": "2018",
+            "endDate": "",
+            "responsibilities":[
+                "Ansvarade för att bjuda in relevanta företag till en arbetsmarknadsdag föreningen anordnade.",
+                "Även arbete med administration och sekreterarjobb."
+            ]
+        },
+        {
+            "role": "Parkarbetare",
+            "CompanyName": "Åsta Havsbad Stugägarförening",
+            "place": "Haninge",
+            "startDate": "sommaren 2016",
+            "endDate": "",
+            "responsibilities":[
+                "Ansvarade för renhållning och rensning av ogräs i området."
+            ]
+        },
+        {
+            "role": "Parkarbetare",
+            "CompanyName": "PEAB",
+            "place": "Bromma",
+            "startDate": "sommaren 2015",
+            "endDate": "",
+            "responsibilities":[
+                "Ansvarade för renhållning och rensning av ogräs i Brommas grönområden."
+            ]
+        }
+    ]
+}

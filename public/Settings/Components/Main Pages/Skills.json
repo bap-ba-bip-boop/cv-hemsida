@@ -1,0 +1,59 @@
+{
+    "languageTitle": "Språk",
+    "spokenLanguages":[
+        {
+            "languageName": "Svenska",
+            "level": "Modersmål"
+        },
+        {
+            "languageName": "Engelska",
+            "level": "Flytande"
+        }
+    ],
+    "ITStuffTitle": "Prokrammeringsspråk och färdigheter",
+    "ITStuff": [
+        {
+            "CategoryName": "Programmeringsspråk",
+            "items": [
+                "C#",
+                "Javascript",
+                "HTML",
+                "CSS",
+                "Java"
+            ]
+        },
+        {
+            "CategoryName": "Programeringsbibliotek",
+            "items": [
+                "React",
+                "SQL",
+                "EntityFramework",
+                "MsTest",
+                "Automapper"
+            ]
+        },
+        {
+            "CategoryName": "Operativsystem",
+            "items": [
+                "Windows OS",
+                "Linux OS"
+            ]
+        },
+        {
+            "CategoryName": "IDE: \"Integrated DEveloper Enviornment\"",
+            "items": [
+                "Visual Studio 2022",
+                "Visual Studio Code"
+            ]
+        },
+        {
+            "CategoryName": "Office Tools",
+            "items": [
+                "MS Excel",
+                "MS Office",
+                "MS Powerpoint",
+                "Mathlab"
+            ]
+        }
+    ]
+}
