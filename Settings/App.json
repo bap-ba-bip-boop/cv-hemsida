@@ -1,0 +1,25 @@
+{
+    "pages":
+    [
+        {
+            "Page": "Summary",
+            "Text": "Summary"
+        },
+        {
+            "Page": "Skills",
+            "Text": "Skills"
+        },
+        {
+            "Page": "Workplaces",
+            "Text": "Earlier Workplaces"
+        },
+        {
+            "Page": "Education",
+            "Text": "Educations"
+        },
+        {
+            "Page": "Links",
+            "Text": "Links"
+        }
+    ]
+}
