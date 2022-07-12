@@ -11,6 +11,8 @@ export const App = () => {
 
   const [activePage, SetActivePage] = useState(appSettings.pages[0].Page);
 
+  console.log("start page value: " + appSettings.pages[0].Page);
+
   const changeActivePage = input =>
   {
     SetActivePage(input);
