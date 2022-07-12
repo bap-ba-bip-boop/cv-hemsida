@@ -33,3 +33,11 @@ export const App = () => {
 }
 
 export default App;
+
+/*
+JSON files are imported.
+Empty tags (<></>) are imported
+Commit + 'npm run deploy'
+
+{Module Name}.name is not compiled
+*/
