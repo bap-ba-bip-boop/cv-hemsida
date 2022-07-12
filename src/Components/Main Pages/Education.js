@@ -3,7 +3,7 @@ import React from 'react'
 import { EducationComponent } from './Main Components/EducationComponent';
 
 export const Education = () =>
-  <div>
+  <>
   {
     appSettings.Educations.map( (education,i) =>
         <EducationComponent
@@ -16,4 +16,4 @@ export const Education = () =>
         />
     )
   }
-  </div>
+  </>

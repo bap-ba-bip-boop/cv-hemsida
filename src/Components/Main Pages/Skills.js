@@ -6,7 +6,7 @@ import { ITStuffComponent } from './Main Components/ITStuffComponent';
 
 export const Skills = () => {
   return (
-    <div>
+    <>
         <section>
             <h3>{appSettings.languageTitle}</h3>
             {
@@ -31,6 +31,6 @@ export const Skills = () => {
               )
             }
         </section>
-    </div>
+    </>
   )
 }

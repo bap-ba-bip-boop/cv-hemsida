@@ -8,7 +8,7 @@
     "nav"
     "main"
     "footer";
-    grid-template-rows: 200px 25px 6fr auto;
+    grid-template-rows: 2fr 25px 12fr 1fr;
     width: 100vw;
     height: 100vh;
 }
@@ -40,17 +40,16 @@
 }
 
 .siteMain{
+    display: block;
     height: 100%;
     grid-area: main;
     padding: 2vh 4vw;
-    min-height: 100%;
 }
 
 .siteFooter{
-    display: flex;
+    display: block;
     grid-area: footer;
     font-weight: 600;
     font-style: italic;
-    justify-content: center;
-    align-items: baseline;
+    text-align: center;
 }
