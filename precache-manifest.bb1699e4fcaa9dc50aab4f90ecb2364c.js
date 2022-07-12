@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "500239772436c314bc7a",
+    "revision": "45b12e0d0a5a3664d574",
     "url": "/cv-hemsida/static/css/main.d95b1ff9.chunk.css"
   },
   {
-    "revision": "500239772436c314bc7a",
-    "url": "/cv-hemsida/static/js/main.d25eecc0.chunk.js"
+    "revision": "45b12e0d0a5a3664d574",
+    "url": "/cv-hemsida/static/js/main.8679b0b2.chunk.js"
   },
   {
     "revision": "ac6cd78eeb89ecc3ae9b",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/cv-hemsida/static/js/3.c70b6b5b.chunk.js"
   },
   {
-    "revision": "bcdb4efbe455e35d027beb653d50f1a3",
+    "revision": "93d1762bd11d03c01cc2d34b70649cd1",
     "url": "/cv-hemsida/index.html"
   }
 ];
