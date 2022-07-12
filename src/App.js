@@ -14,7 +14,6 @@ export const App = () => {
   const changeActivePage = input =>
   {
     SetActivePage(input);
-    console.log("new Page: " + input);
   }
 
   return (
