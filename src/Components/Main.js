@@ -7,6 +7,7 @@ import {Education} from './Main Pages/Education'
 import {Links} from './Main Pages/Links'
 
 export const Main = props => {
+  console.log(Skills.name);
   return (
     <main className='siteMain'>
       {props.activePage === Summary.name && <Summary/>}
