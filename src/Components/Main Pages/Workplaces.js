@@ -4,7 +4,7 @@ import {WorkplaceComponent} from './Main Components/WorkplaceComponent'
 import React from 'react'
 
 export const Workplaces = () => 
-    <>
+    <div>
     {
     appSettings.workplaces.map( (workplace, i) =>
         <WorkplaceComponent
@@ -18,4 +18,4 @@ export const Workplaces = () =>
         />
     )
     }
-    </>
+    </div>
