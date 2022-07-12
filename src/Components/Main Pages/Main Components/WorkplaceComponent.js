@@ -1,8 +1,10 @@
 import React from 'react'
 
+import appSettings from '../../../Settings/Components/Main Pages/Main Components/WorkplaceComponent.json';
+
 export const WorkplaceComponent = props => 
     <a className='workplaceContainter' href='#' onClick={ () => props.openEducation(props.educationIndex)}> 
-        <h2>{props.role}</h2>
+        <h2 className='workplaceContainterTitle'>{props.role}</h2>
         <span>
             {props.CompanyName} | {props.place} | {props.startDate} {props.endDate && " - " + props.endDate}
         </span>
@@ -18,16 +20,11 @@ export const WorkplaceComponent = props =>
                 </section>
             )
         }
-        {
-            props.educationIndex !== props.selectedEducation &&
-            (
-                <p className='workplaceContainterMessage'>Visa Mer</p>
-            )
-        }
-        {
-            props.educationIndex === props.selectedEducation &&
-            (
-                <p className='workplaceContainterMessage'>Visa Mindre</p>
-            )
-        }
+        <p className='workplaceContainterMessage'>
+            {
+            props.educationIndex !== props.selectedEducation ?
+            appSettings.showMore :
+            appSettings.showLess
+            }
+        </p>
     </a>

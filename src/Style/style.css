@@ -47,6 +47,7 @@
 }
 
 .siteFooter{
+    color: purple;
     display: block;
     grid-area: footer;
     font-weight: 600;
@@ -54,6 +55,7 @@
     text-align: center;
 }
 
+/*WorkplaceContent*/
 .workplaceContainter{
     border: 1px solid purple;
     border-radius: 5px;
@@ -61,6 +63,10 @@
     color: black;
     margin: 0.5vh 0vw;
     padding: 0vh 1vw;
+}
+
+.workplaceContainterTitle{
+    color: purple;
 }
 
 .workplaceContainterContent{
@@ -73,4 +79,24 @@
 
 .workplaceContainterList{
     list-style-type: disc;
+}
+
+/*WorkplaceContent*/
+.educationContainter{
+    border: 1px solid purple;
+    border-radius: 5px;
+    display: block;
+    color: black;
+    margin: 0.5vh 0vw;
+    padding: 0vh 1vw;
+}
+
+.educationContainterTitle{
+    color: purple;
+}
+
+/*Links*/
+.socialMediaLink{
+    display: block;
+    font-size: 1.0em;
 }

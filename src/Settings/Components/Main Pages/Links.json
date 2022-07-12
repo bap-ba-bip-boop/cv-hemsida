@@ -3,11 +3,13 @@
     [
         {
             "linkText":"linkedin",
-            "link":"https://www.linkedin.com/in/carl-bergqvist-b06875195"
+            "link":"https://www.linkedin.com/in/carl-bergqvist-b06875195",
+            "linkIcon": "linkedin-square"
         },
         {
             "linkText": "github",
-            "link":"https://github.com/bap-ba-bip-boop"
+            "link":"https://github.com/bap-ba-bip-boop",
+            "linkIcon": "github"
         }
     ]
 }
