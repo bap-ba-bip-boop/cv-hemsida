@@ -2,9 +2,8 @@ import appSettings from '../../Settings/Components/Main Pages/Summary.json';
 import React from 'react'
 
 export const Summary = () => {
-  console.log("summary run");
   return (
-    <div>
+    <>
         <h3>{appSettings.goalTitle}</h3>
         <p>{appSettings.goalText}</p>
 
@@ -16,6 +15,6 @@ export const Summary = () => {
 
         <h3>{appSettings.personalTitle}</h3>
         <p>{appSettings.personalContent}</p>
-    </div>
+    </>
   )
 }
