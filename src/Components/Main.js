@@ -10,11 +10,11 @@ export const Main = props => {
   console.log("Skills Name: " + Skills.name);
   return (
     <main className='siteMain'>
-      {props.activePage === Summary.name && <Summary/>}
-      {props.activePage === Skills.name && <Skills/>}
-      {props.activePage === Workplaces.name && <Workplaces/>}
-      {props.activePage === Education.name && <Education/>}
-      {props.activePage === Links.name && <Links/>}
+      {props.activePage === "Summary" && <Summary/>}
+      {props.activePage === "Skills" && <Skills/>}
+      {props.activePage === "Workplaces" && <Workplaces/>}
+      {props.activePage === "Education" && <Education/>}
+      {props.activePage === "Links" && <Links/>}
     </main>
   )
 }
