@@ -11,7 +11,6 @@ export const App = () => {
 
   const [activePage, SetActivePage] = useState(appSettings.pages[0].Page);
 
-  
 
   const changeActivePage = input =>
   {

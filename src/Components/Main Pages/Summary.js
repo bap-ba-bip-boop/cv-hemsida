@@ -2,6 +2,7 @@ import appSettings from '../../Settings/Components/Main Pages/Summary.json';
 import React from 'react'
 
 export const Summary = () => {
+  console.log("summary run");
   return (
     <div>
         <h3>{appSettings.goalTitle}</h3>
