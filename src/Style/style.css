@@ -19,6 +19,10 @@
     text-align: center;
 }
 
+.siteHeaderTitle{
+    color: purple;
+}
+
 .siteNav{
     display: flex;
     grid-area: nav;
@@ -55,7 +59,25 @@
     text-align: center;
 }
 
-/*WorkplaceContent*/
+/*SummaryPage*/
+.summaryTopicTitle{
+    color: purple;
+}
+
+.summaryTopicText{
+    display: block;
+    margin: 0.5vh 0vw;
+    padding: 0vh 1vw;
+}
+
+.summaryTopicList{
+    list-style-type: disc;
+    display: block;
+    margin: 0.5vh 0vw;
+    padding: 0vh 1vw;
+}
+
+/*WorkplacePage*/
 .workplaceContainter{
     border: 1px solid purple;
     border-radius: 5px;
@@ -81,7 +103,7 @@
     list-style-type: disc;
 }
 
-/*WorkplaceContent*/
+/*EducationPage*/
 .educationContainter{
     border: 1px solid purple;
     border-radius: 5px;
@@ -100,8 +122,38 @@
     color: purple;
 }
 
-/*Links*/
-.socialMediaLink{
+.categoryContainer{
     display: block;
+    margin: 0.5vh 0vw;
+    padding: 0vh 1vw;
+}
+
+.categoryContainerTitle{
+    color: purple;
+}
+
+.languageContainer{
+    display: block;
+    margin: 0.5vh 0vw;
+    padding: 0vh 1vw;
+}
+
+.languageContainerTitle{
+    color: purple;
+}
+
+/*LinksPage*/
+.socialMediaLink{
+    background-color: purple;
+    border-radius: 15px;
+    color: white;
+    display: inline-flex;
     font-size: 1.0em;
+    text-align: center;
+    margin: 0.5vh 0.5vw;
+    padding: 0.5vh 1vw;
+}
+
+.socialMediaLink:hover{
+    background-color: rgb(64, 0, 64);
 }

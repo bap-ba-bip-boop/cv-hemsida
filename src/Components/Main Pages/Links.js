@@ -8,7 +8,7 @@ export const Links = () => {
     {
         appSettings.links.map( (link, i) => 
           <a className = 'socialMediaLink' key = {i} href={link.link}>
-            <box-icon name={link.linkIcon} type='logo'/>
+            <box-icon color='white' name={link.linkIcon} type='logo'/>
             {link.linkText}
             </a>
         )

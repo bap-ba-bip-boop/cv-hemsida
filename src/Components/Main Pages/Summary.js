@@ -4,17 +4,17 @@ import React from 'react'
 export const Summary = () => {
   return (
     <>
-        <h3>{appSettings.goalTitle}</h3>
-        <p>{appSettings.goalText}</p>
+        <h2 className='summaryTopicTitle'>{appSettings.goalTitle}</h2>
+        <p className='summaryTopicContent'>{appSettings.goalText}</p>
 
 
-        <h3>{appSettings.profileTitle}</h3>
-        <ul>
+        <h2 className='summaryTopicTitle'>{appSettings.profileTitle}</h2>
+        <ul className='summaryTopicList'>
           {appSettings.profileContent.map(item => <li key={item}>{item}</li>)}
         </ul>
 
-        <h3>{appSettings.personalTitle}</h3>
-        <p>{appSettings.personalContent}</p>
+        <h2 className='summaryTopicTitle'>{appSettings.personalTitle}</h2>
+        <p className='summaryTopicContent'>{appSettings.personalContent}</p>
     </>
   )
 }

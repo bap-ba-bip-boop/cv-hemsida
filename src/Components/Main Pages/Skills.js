@@ -22,7 +22,7 @@ export const Skills = () => {
       <section>
           <h2 className='skillsTitle'>{appSettings.languageTitle}</h2>
           {
-          appSettings.spokenLanguages.map((language,i) =>
+          appSettings.spokenLanguages.map( (language,i) =>
             <LanguageComponent
             key={i}
             languageName={language.languageName}

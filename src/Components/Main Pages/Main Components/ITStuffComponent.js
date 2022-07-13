@@ -2,8 +2,8 @@ import React from 'react'
 
 export const ITStuffComponent = props => {
   return (
-    <div key ={props.CategoryName}>
-      <p>{props.CategoryName}</p>
+    <div className='categoryContainer' key ={props.CategoryName}>
+      <h3 className='categoryContainerTitle'>{props.CategoryName}</h3>
       {props.items.map(item => <span key={item}>{item}, </span>)} 
     </div>
   )
