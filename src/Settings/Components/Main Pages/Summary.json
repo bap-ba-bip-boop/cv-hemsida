@@ -1,13 +1,30 @@
 {
-    "goalTitle": "Mål",
-    "goalText": "Mina mål är att utveckla mina kunskaper inom programmeringsbranchen genom att lära mig skriva kod av hög standard och lära mig mer om relaterade områden som kan hjälpa",
-    "profileTitle": "Profil",
-    "profileContent":[
-        "Målmedveten person som strävar efter personlig utveckling.",
-        "Tidigare erfarenhet av arbete inom IT",
-        "Utbildning som .Net utvecklare"
-    ],
-    "personalTitle": "Personligt",
-    "personalContent": "Jag bor i bromma. På min fritid gillar jag att promenera, laga mat och pyssla med småprojekt(ex bildredigering). Mina vänner beskriver mig som analytisk och en bra lyssnare"
-
-}
+    "local":[
+        {
+            "languageTag": "EN",
+            "goalTitle": "Goals",
+            "goalText": "My goals are to develop my skills in programming by learning to write code of a hihg standard. I also want to learn a lot more in related areas that can help me with coding",
+            "profileTitle": "Profile",
+            "profileContent":[
+                "Goal driven individual striving for personal development.",
+                "Earlier work experience in IT",
+                "Educated .Net developer"
+            ],
+            "personalTitle": "Personal",
+            "personalContent": "I live in Bromma. In my free time I like reading, cooking and working on small projects. My friends describe me as analytic and a good listener"
+        },
+        {
+            "languageTag": "SV",
+            "goalTitle": "Mål",
+            "goalText": "Mina mål är att utveckla mina kunskaper inom programmeringsbranchen genom att lära mig skriva kod av hög standard och lära mig mer om relaterade områden som kan hjälpa",
+            "profileTitle": "Profil",
+            "profileContent":[
+                "Målmedveten person som strävar efter personlig utveckling.",
+                "Tidigare erfarenhet av arbete inom IT",
+                "Utbildning som .Net utvecklare"
+            ],
+            "personalTitle": "Personligt",
+            "personalContent": "Jag bor i Bromma. På min fritid gillar jag att pläsa, laga mat och pyssla med småprojekt(ex bildredigering). Mina vänner beskriver mig som analytisk och en bra lyssnare"
+        }
+    ]
+    }

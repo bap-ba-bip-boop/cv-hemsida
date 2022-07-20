@@ -3,7 +3,9 @@ import React, { useState } from 'react';
 import appSettings from '../../Settings/Components/Main Pages/Workplaces.json';
 import {WorkplaceComponent} from './Main Components/WorkplaceComponent'
 
-export const Workplaces = () => {
+export const Workplaces = props => {
+    
+    const local = appSettings.local.find(loc => loc.languageTag === props.languageTag);
 
     const noneSelected = "None";
     const [openEducation, setOpenEducation] = useState(noneSelected);
@@ -18,7 +20,7 @@ export const Workplaces = () => {
     return(
         <>
         {
-        appSettings.workplaces.map( (workplace, i) =>
+        local.workplaces.map( (workplace, i) =>
             <WorkplaceComponent
                 key={i}
                 role={workplace.role}

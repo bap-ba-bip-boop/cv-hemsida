@@ -2,12 +2,14 @@ import appSettings from '../../Settings/Components/Main Pages/Education.json';
 import React from 'react'
 import { EducationComponent } from './Main Components/EducationComponent';
 
-export const Education = () =>{
+export const Education = props =>{
+
+  const local = appSettings.local.find(loc => loc.languageTag === props.languageTag);
 
   return(
     <>
     {
-      appSettings.Educations.map( (education,i) =>
+      local.Educations.map( (education, i) =>
           <EducationComponent
           key={i}
           name = {education.name}

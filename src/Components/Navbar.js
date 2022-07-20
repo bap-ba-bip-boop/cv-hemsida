@@ -1,7 +1,10 @@
 import React from 'react'
 import { NavButton } from './Nav Components/NavButton';
+import appSettings from '../Settings/Components/Navbar.json';
 
 export const Navbar = props => {
+
+  const  local = appSettings.local.find(loc => loc.languageTag === props.languageTag);
 
   return (
     <nav className='siteNav'>
@@ -10,8 +13,8 @@ export const Navbar = props => {
           <NavButton
             key={i}
             buttonAction = {props.buttonAction}
-            buttonText = {page.Text}
-            redirectPage = {page.Page}
+            buttonText = {local[page]}
+            redirectPage = {page}
           />
         )
       }

@@ -9,11 +9,21 @@ import {Links} from './Main Pages/Links'
 export const Main = props => {
   return (
     <main className='siteMain'>
-      {props.activePage === "Summary" && <Summary/>}
-      {props.activePage === "Skills" && <Skills/>}
-      {props.activePage === "Workplaces" && <Workplaces/>}
-      {props.activePage === "Education" && <Education/>}
-      {props.activePage === "Links" && <Links/>}
+      {props.activePage === "Summary" && <Summary
+        languageTag={props.languageTag}
+      />}
+      {props.activePage === "Skills" && <Skills
+        languageTag={props.languageTag}
+        />}
+      {props.activePage === "Workplaces" && <Workplaces
+        languageTag={props.languageTag}
+        />}
+      {props.activePage === "Education" && <Education
+        languageTag={props.languageTag}
+        />}
+      {props.activePage === "Links" && <Links
+        languageTag={props.languageTag}
+        />}
     </main>
   )
 }

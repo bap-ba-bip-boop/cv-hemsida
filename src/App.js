@@ -9,24 +9,37 @@ import { Navbar } from './Components/Navbar';
 
 export const App = () => {
 
-  const [activePage, SetActivePage] = useState(appSettings.pages[0].Page);
+  const [languageIndex, setLanguageIndex] = useState(0);
+  const [activePage, SetActivePage] = useState(appSettings.pages[languageIndex]);
 
-  const changeActivePage = input =>
-  {
+  console.log(activePage);
+
+  const changeActivePage = input => {
     SetActivePage(input);
+  }
+  const changeActiveLanguage = () => {
+    let newIndex = languageIndex + 1;
+    newIndex = (newIndex % appSettings.languageTag.length);
+    setLanguageIndex(newIndex);
   }
 
   return (
-    <div className = "siteContainer">
-      <Header/>
+    <div className="siteContainer">
+      <Header
+        changeLanguage={changeActiveLanguage}
+      />
       <Navbar
-      buttonAction = {changeActivePage}
-      Pages = {appSettings.pages}
+        buttonAction={changeActivePage}
+        Pages={
+          appSettings.pages
+        }
+        languageTag={appSettings.languageTag[languageIndex]}
       />
       <Main
-      activePage = {activePage}
+        activePage={activePage}
+        languageTag={appSettings.languageTag[languageIndex]}
       />
-      <Footer/>
+      <Footer />
     </div>
   )
 }

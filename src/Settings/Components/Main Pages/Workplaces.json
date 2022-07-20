@@ -1,60 +1,126 @@
 {
-    "workplaces": [
+    "local":[
         {
-            "role": "Admin och Kundsupport",
-            "CompanyName": "Qopla AB",
-            "place": "Stockholm",
-            "startDate": "2020",
-            "endDate": "2021",
-            "responsibilities":[
-                "Överförde restaurangers menyer i företagets system",
-                "Fixade en webshop åt kunderna",
-                "Integrerade webshoppen mot kundernas hemsidor",
-                "Förberedde kundernas hårdvara b.la. Kassadatorer, surfplattor, kvittoskrivare, kortläsare, m.m.",
-                "Kundsupport med olika ärenden"
+            "languageTag": "EN",
+            "workplaces": [
+                {
+                    "role": "Admin and Customer Support",
+                    "CompanyName": "Qopla AB",
+                    "place": "Stockholm",
+                    "startDate": "2020",
+                    "endDate": "2021",
+                    "responsibilities":[
+                        "Put restaurants menues in the company database",
+                        "Fixed a webshop for customers",
+                        "Integrated the Webshop with customers websites",
+                        "Prepared hardware for customers incl. Register computers, tablets, reciept printers, credit card terminals",
+                        "Customer support errands for customers"
+                    ]
+                },
+                {
+                    "role": "Business Manager in Student Union",
+                    "CompanyName": "Blekinges Organiserade Spel Studenter",
+                    "place": "Karlskrona",
+                    "startDate": "2018",
+                    "endDate": "2019",
+                    "responsibilities":[
+                        "Responsible for inviting relevant companies to a labour market day the student union organized",
+                        "Worked with administration and a secretary position"
+                    ]
+                },
+                {
+                    "role": "Kitchen Personnel",
+                    "CompanyName": "Blekinge Studentkår",
+                    "place": "Karlskrona",
+                    "startDate": "2018",
+                    "endDate": "",
+                    "responsibilities":[
+                        "Preperation of simple meals",
+                        "Serving at events"
+                    ]
+                },
+                {
+                    "role": "Park Work",
+                    "CompanyName": "Åsta Havsbad Stugägarförening",
+                    "place": "Haninge",
+                    "startDate": "Sommaren 2016",
+                    "endDate": "",
+                    "responsibilities":[
+                        "Keeping areas trash free and removing weeds in the area"
+                    ]
+                },
+                {
+                    "role": "Park Work",
+                    "CompanyName": "PEAB",
+                    "place": "Bromma",
+                    "startDate": "Sommaren 2015",
+                    "endDate": "",
+                    "responsibilities":[
+                        "Keeping areas trash free and removing weeds in the area"
+                    ]
+                }
             ]
         },
         {
-            "role": "Näringslivsansvarig i studentförening",
-            "CompanyName": "Blekinges organiserade spel studenter",
-            "place": "Karlskrona",
-            "startDate": "2018",
-            "endDate": "2019",
-            "responsibilities":[
-                "Ansvarade för att bjuda in relevanta företag till en arbetsmarknadsdag föreningen anordnade.",
-                "Även arbete med administration och sekreterarjobb."
-            ]
-        },
-        {
-            "role": "Kökspersonal",
-            "CompanyName": "Blekinge Studentkår",
-            "place": "Karlskrona",
-            "startDate": "2018",
-            "endDate": "",
-            "responsibilities":[
-                "Ansvarade för att bjuda in relevanta företag till en arbetsmarknadsdag föreningen anordnade.",
-                "Även arbete med administration och sekreterarjobb."
-            ]
-        },
-        {
-            "role": "Parkarbetare",
-            "CompanyName": "Åsta Havsbad Stugägarförening",
-            "place": "Haninge",
-            "startDate": "Sommaren 2016",
-            "endDate": "",
-            "responsibilities":[
-                "Ansvarade för renhållning och rensning av ogräs i området."
-            ]
-        },
-        {
-            "role": "Parkarbetare",
-            "CompanyName": "PEAB",
-            "place": "Bromma",
-            "startDate": "Sommaren 2015",
-            "endDate": "",
-            "responsibilities":[
-                "Ansvarade för renhållning och rensning av ogräs i Brommas grönområden."
+            "languageTag": "SV",
+            "workplaces": [
+                {
+                    "role": "Admin och Kundsupport",
+                    "CompanyName": "Qopla AB",
+                    "place": "Stockholm",
+                    "startDate": "2020",
+                    "endDate": "2021",
+                    "responsibilities":[
+                        "Överförde restaurangers menyer i företagets system",
+                        "Fixade en webshop åt kunderna",
+                        "Integrerade webshoppen mot kundernas hemsidor",
+                        "Förberedde kundernas hårdvara b.la. Kassadatorer, surfplattor, kvittoskrivare, kortläsare, m.m.",
+                        "Kundsupport med olika ärenden"
+                    ]
+                },
+                {
+                    "role": "Näringslivsansvarig i studentförening",
+                    "CompanyName": "Blekinges Organiserade Spel Studenter",
+                    "place": "Karlskrona",
+                    "startDate": "2018",
+                    "endDate": "2019",
+                    "responsibilities":[
+                        "Ansvarade för att bjuda in relevanta företag till en arbetsmarknadsdag föreningen anordnade.",
+                        "Arbetade med administration och sekreterarjobb."
+                    ]
+                },
+                {
+                    "role": "Kökspersonal",
+                    "CompanyName": "Blekinge Studentkår",
+                    "place": "Karlskrona",
+                    "startDate": "2018",
+                    "endDate": "",
+                    "responsibilities":[
+                        "Förberedelse av enklare maträtter.",
+                        "Servering vid evenemang."
+                    ]
+                },
+                {
+                    "role": "Parkarbetare",
+                    "CompanyName": "Åsta Havsbad Stugägarförening",
+                    "place": "Haninge",
+                    "startDate": "Sommaren 2016",
+                    "endDate": "",
+                    "responsibilities":[
+                        "Ansvarade för renhållning och rensning av ogräs i området."
+                    ]
+                },
+                {
+                    "role": "Parkarbetare",
+                    "CompanyName": "PEAB",
+                    "place": "Bromma",
+                    "startDate": "Sommaren 2015",
+                    "endDate": "",
+                    "responsibilities":[
+                        "Ansvarade för renhållning och rensning av ogräs i Brommas grönområden."
+                    ]
+                }
             ]
         }
     ]
-}
+    }

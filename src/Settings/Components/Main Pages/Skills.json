@@ -1,59 +1,131 @@
+
 {
-    "languageTitle": "Språk",
-    "spokenLanguages":[
+    "local":[
         {
-            "languageName": "Svenska",
-            "level": "Modersmål"
+            "languageTag": "SV",
+            "languageTitle": "Språk",
+            "spokenLanguages":[
+                {
+                    "languageName": "Svenska",
+                    "level": "Modersmål"
+                },
+                {
+                    "languageName": "Engelska",
+                    "level": "Flytande"
+                }
+            ],
+            "ITStuffTitle": "Prokrammeringsspråk och färdigheter",
+            "ITStuff": [
+                {
+                    "CategoryName": "Programmeringsspråk",
+                    "items": [
+                        "C#",
+                        "Javascript",
+                        "HTML",
+                        "CSS",
+                        "Java"
+                    ]
+                },
+                {
+                    "CategoryName": "Programeringsbibliotek",
+                    "items": [
+                        ".NET 6",
+                        "React",
+                        "SQL",
+                        "EntityFramework",
+                        "MsTest",
+                        "Automapper"
+                    ]
+                },
+                {
+                    "CategoryName": "Operativsystem",
+                    "items": [
+                        "Windows OS",
+                        "Linux OS"
+                    ]
+                },
+                {
+                    "CategoryName": "IDE: \"Integrated Developer Enviornment\"",
+                    "items": [
+                        "Visual Studio 2022",
+                        "Visual Studio Code"
+                    ]
+                },
+                {
+                    "CategoryName": "Office Program",
+                    "items": [
+                        "MS Excel",
+                        "MS Office",
+                        "MS Powerpoint",
+                        "Mathlab"
+                    ]
+                }
+            ],
+            "DriversLicense": "Körkort",
+            "DriversLicenceType": "B Körkort"
         },
         {
-            "languageName": "Engelska",
-            "level": "Flytande"
-        }
-    ],
-    "ITStuffTitle": "Prokrammeringsspråk och färdigheter",
-    "ITStuff": [
-        {
-            "CategoryName": "Programmeringsspråk",
-            "items": [
-                "C#",
-                "Javascript",
-                "HTML",
-                "CSS",
-                "Java"
-            ]
-        },
-        {
-            "CategoryName": "Programeringsbibliotek",
-            "items": [
-                "React",
-                "SQL",
-                "EntityFramework",
-                "MsTest",
-                "Automapper"
-            ]
-        },
-        {
-            "CategoryName": "Operativsystem",
-            "items": [
-                "Windows OS",
-                "Linux OS"
-            ]
-        },
-        {
-            "CategoryName": "IDE: \"Integrated DEveloper Enviornment\"",
-            "items": [
-                "Visual Studio 2022",
-                "Visual Studio Code"
-            ]
-        },
-        {
-            "CategoryName": "Office Tools",
-            "items": [
-                "MS Excel",
-                "MS Office",
-                "MS Powerpoint",
-                "Mathlab"
-            ]
+            "languageTag": "EN",
+            "languageTitle": "Languages",
+            "spokenLanguages":[
+                {
+                    "languageName": "Swedish",
+                    "level": "Mother Tongue"
+                },
+                {
+                    "languageName": "English",
+                    "level": "Professional"
+                }
+            ],
+            "ITStuffTitle": "Programing Languages and other IT Skills",
+            "ITStuff": [
+                {
+                    "CategoryName": "Programing Languages",
+                    "items": [
+                        "C#",
+                        "Javascript",
+                        "HTML",
+                        "CSS",
+                        "Java"
+                    ]
+                },
+                {
+                    "CategoryName": "Programing Libraries",
+                    "items": [
+                        ".NET 6",
+                        "React",
+                        "SQL",
+                        "EntityFramework",
+                        "MsTest",
+                        "Automapper"
+                    ]
+                },
+                {
+                    "CategoryName": "Operative Systems",
+                    "items": [
+                        "Windows OS",
+                        "Linux OS"
+                    ]
+                },
+                {
+                    "CategoryName": "IDE: \"Integrated Developer Enviornment\"s",
+                    "items": [
+                        "Visual Studio 2022",
+                        "Visual Studio Code"
+                    ]
+                },
+                {
+                    "CategoryName": "Office Tools",
+                    "items": [
+                        "MS Excel",
+                        "MS Office",
+                        "MS Powerpoint",
+                        "Mathlab"
+                    ]
+                }
+            ],
+            "DriversLicense": "Drivers License",
+            "DriversLicenceType": "B Type License"
         }
     ]
 }

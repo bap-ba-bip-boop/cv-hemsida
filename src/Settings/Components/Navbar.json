@@ -1,7 +1,20 @@
 {
-    "SummaryText": "Summary",
-    "SkillsText": "Skills",
-    "WorkplaceText": "Earlier Workplaces",
-    "EducationText": "Educations",
-    "LinkText": "Links"
+"local":[
+    {
+        "languageTag": "EN",
+        "Summary":"Summary",
+        "Skills":"Skills",
+        "Workplaces":"Earlier Workplaces",
+        "Education":"Educations",
+        "Links":"Links"
+    },
+    {
+        "languageTag": "SV",
+        "Summary":"Sammanfattning",
+        "Skills":"Kunskaper",
+        "Workplaces":"Tidigare Arbetsplatser",
+        "Education":"Utbildningar",
+        "Links":"Länkar"
+    }
+]
 }
