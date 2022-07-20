@@ -12,21 +12,26 @@ export const App = () => {
   const [languageIndex, setLanguageIndex] = useState(0);
   const [activePage, SetActivePage] = useState(appSettings.pages[languageIndex]);
 
-  console.log(activePage);
-
   const changeActivePage = input => {
     SetActivePage(input);
   }
-  const changeActiveLanguage = () => {
+
+  const getNextLanguageTag =()=>
+  {
     let newIndex = languageIndex + 1;
     newIndex = (newIndex % appSettings.languageTag.length);
-    setLanguageIndex(newIndex);
+    return newIndex;
+  }
+
+  const changeActiveLanguage = () => {
+    setLanguageIndex(getNextLanguageTag());
   }
 
   return (
     <div className="siteContainer">
       <Header
         changeLanguage={changeActiveLanguage}
+        nextLanguageTag={appSettings.languageTag[getNextLanguageTag()]}
       />
       <Navbar
         buttonAction={changeActivePage}
