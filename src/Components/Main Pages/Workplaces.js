@@ -32,6 +32,7 @@ export const Workplaces = props => {
                 selectedEducation={openEducation}
                 openEducation={changeSelected}
                 educationIndex={i+""}
+                languageTag={props.languageTag}
             />
         )
         }

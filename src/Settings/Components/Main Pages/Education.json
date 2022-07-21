@@ -8,35 +8,59 @@
                     "SchoolName": "KYH",
                     "place": "Stockholm",
                     "startDate": "2021",
-                    "endDate": "now"
+                    "endDate": "now",
+                    "notes": [
+                        "Programing with C#",
+                        "Webprograming with React and ASP.NET 6.0",
+                        "Webprograming with HTML, CSS and Javascript",
+                        "Databases with SQL",
+                        "Testing with MSTest"
+                    ]
                 },
                 {
                     "name": "Object Oriented Programing in Java",
                     "SchoolName": "Luleå tekniska universitet",
                     "place": "Distance",
                     "startDate": "2021",
-                    "endDate": "2022"
+                    "endDate": "2022",
+                    "notes": [
+                        "GUI programing with Java Swing and the MVC model"
+                    ]
                 },
                 {
                     "name": "Introduction to Programing i Java",
                     "SchoolName": "Högskolan i Gävle",
                     "place": "Distance",
                     "startDate": "2020",
-                    "endDate": "2021"
+                    "endDate": "2021",
+                    "notes": [
+                        "Introduction to Programing i Java"
+                    ]
                 },
                 {
                     "name": "Civil Engineering in Games and Program Development",
                     "SchoolName": "Blekinges Tekniska Högskol",
                     "place": "Karlskrona",
                     "startDate": "2016",
-                    "endDate": "2019"
+                    "endDate": "2019",
+                    "notes": [
+                        "Programing with C och C++ as well as Datastructures and Algorithm theory with C++",
+                        "Introduction course to 3D programing with OpenGL",
+                        "A lot of Mathematics incl. Discrete Mathematics and Calculus",
+                        "Introduction course to Statistics",
+                        "Introduction course to Industrial Economy"
+                    ]
                 },
                 {
                     "name": "Informations- och Mediateknik",
                     "SchoolName": "Thorildsplans Gymnasium",
                     "place": "Stockholm",
                     "startDate": "2013",
-                    "endDate": "2016"
+                    "endDate": "2016",
+                    "notes": [
+                        "Introduction to programing with C++ och Java",
+                        "Networking technology with Cisco hardware"
+                    ]
                 }
             ]
         },
@@ -48,35 +72,59 @@
                     "SchoolName": "KYH",
                     "place": "Stockholm",
                     "startDate": "2021",
-                    "endDate": "nu"
+                    "endDate": "nu",
+                    "notes": [
+                        "Programmering inom C#",
+                        "Webprogrammering med React och ASP.NET 6.0",
+                        "Webprogrammering med HTML, CSS och Javascript",
+                        "Databaser med SQL",
+                        "Testning med MSTest"
+                    ]
                 },
                 {
                     "name": "Objektorienterad Programmering i Java",
                     "SchoolName": "Luleå tekniska universitet",
                     "place": "Distas",
                     "startDate": "2021",
-                    "endDate": "2022"
+                    "endDate": "2022",
+                    "notes": [
+                        "GUI programering med Java Swing och MVC modellen"
+                    ]
                 },
                 {
                     "name": "Inledande Programmering i Java",
                     "SchoolName": "Högskolan i Gävle",
                     "place": "Distas",
                     "startDate": "2020",
-                    "endDate": "2021"
+                    "endDate": "2021",
+                    "notes": [
+                        "Inledande Programmering i Java"
+                    ]
                 },
                 {
                     "name": "Civilingenjör inom Spel- och Programvaruteknik",
                     "SchoolName": "Blekinges Tekniska Högskol",
                     "place": "Karlskrona",
                     "startDate": "2016",
-                    "endDate": "2019"
+                    "endDate": "2019",
+                    "notes": [
+                        "Programmering med C och C++ samt Datorstrukturer och Algoritmteori i C++",
+                        "Inledande kurs inom 3D programmering med OpenGL",
+                        "Mycket matematik inkl. Diskret Matematik och Envariabelsanalys",
+                        "Inledande kurs till Statestik",
+                        "Inledande kurs till Industriell ekonomi"
+                    ]
                 },
                 {
                     "name": "Informations- och Mediateknik",
                     "SchoolName": "Thorildsplans Gymnasium",
                     "place": "Stockholm",
                     "startDate": "2013",
-                    "endDate": "2016"
+                    "endDate": "2016",
+                    "notes": [
+                        "Inledande programmering i C++ och Java",
+                        "Nätverksteknik med Cisco hårdvara"
+                    ]
                 }
             ]
         }
