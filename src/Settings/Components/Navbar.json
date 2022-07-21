@@ -6,6 +6,7 @@
         "Skills":"Skills",
         "Workplaces":"Earlier Workplaces",
         "Education":"Educations",
+        "Projects":"Projects",
         "Links":"Links"
     },
     {
@@ -14,6 +15,7 @@
         "Skills":"Kunskaper",
         "Workplaces":"Tidigare Arbetsplatser",
         "Education":"Utbildningar",
+        "Projects":"Projekt",
         "Links":"Länkar"
     }
 ]

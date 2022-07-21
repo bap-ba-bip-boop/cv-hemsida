@@ -1,0 +1,24 @@
+{
+    "projects": [
+        {
+            "projectName": "Case Assignment HTML",
+            "readMeAddress": "https://raw.githubusercontent.com/bap-ba-bip-boop/Case-Assignment-HTML/master/README.md",
+            "linkToProject": "https://github.com/bap-ba-bip-boop/Case-Assignment-HTML"
+        },
+        {
+            "projectName": "API inlämning",
+            "readMeAddress": "https://raw.githubusercontent.com/bap-ba-bip-boop/Inl-mning-API/master/README.md",
+            "linkToProject": "https://github.com/bap-ba-bip-boop/Inl-mning-API"
+        },
+        {
+            "projectName": "MS Test Shop",
+            "readMeAddress": "https://raw.githubusercontent.com/bap-ba-bip-boop/MSTestShop/master/README.md",
+            "linkToProject": "https://github.com/bap-ba-bip-boop/MSTestShop"
+        },
+        {
+            "projectName": "Web API Projekt",
+            "readMeAddress": "https://raw.githubusercontent.com/bap-ba-bip-boop/Projekt2WebAPIProject/master/README.md",
+            "linkToProject": "https://github.com/bap-ba-bip-boop/Projekt2WebAPIProject"
+        }
+    ]
+}

@@ -5,6 +5,7 @@ import {Skills} from './Main Pages/Skills'
 import {Workplaces} from './Main Pages/Workplaces'
 import {Education} from './Main Pages/Education'
 import {Links} from './Main Pages/Links'
+import {Projects} from './Main Pages/Projects'
 
 export const Main = props => {
   return (
@@ -22,6 +23,9 @@ export const Main = props => {
         languageTag={props.languageTag}
         />}
       {props.activePage === "Links" && <Links
+        languageTag={props.languageTag}
+        />}
+      {props.activePage === "Projects" && <Projects
         languageTag={props.languageTag}
         />}
     </main>

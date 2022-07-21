@@ -1,0 +1,14 @@
+{
+    "local": [
+        {
+            "languageTag": "EN",
+            "showMore": "Show More",
+            "showLess": "Show Less"
+        },
+        {
+            "languageTag": "SV",
+            "showMore": "Visa Mer",
+            "showLess": "Visa Mindre"
+        }
+    ]
+}
