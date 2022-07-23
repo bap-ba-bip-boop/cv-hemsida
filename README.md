@@ -1,8 +1,13 @@
-A Digital CV
+# CV Website
 
-Wanted to try some new things with this project including: testing react components and sass.
+My Digital CV
+
+A website intended to work as a CV.
+Wanted to try some new things with this project including: testing react components and React Markdown.
 
 KeyWords:
 - React
 - React Tests
 - Github Pages
+- React Markdown
+- Deployment
