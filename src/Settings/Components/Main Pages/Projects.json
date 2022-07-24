@@ -2,26 +2,36 @@
     "projects": [
         {
             "projectName": "This Website",
+            "repoWebsite": "github",
+            "repoWebsiteIcon": "github",
             "readMeAddress": "https://raw.githubusercontent.com/bap-ba-bip-boop/cv-hemsida/source/README.md",
             "linkToProject": "https://github.com/bap-ba-bip-boop/cv-hemsida"
         },
         {
             "projectName": "Case Assignment HTML",
+            "repoWebsite": "github",
+            "repoWebsiteIcon": "github",
             "readMeAddress": "https://raw.githubusercontent.com/bap-ba-bip-boop/Case-Assignment-HTML/master/README.md",
             "linkToProject": "https://github.com/bap-ba-bip-boop/Case-Assignment-HTML"
         },
         {
             "projectName": "API inlämning",
+            "repoWebsite": "github",
+            "repoWebsiteIcon": "github",
             "readMeAddress": "https://raw.githubusercontent.com/bap-ba-bip-boop/Inl-mning-API/master/README.md",
             "linkToProject": "https://github.com/bap-ba-bip-boop/Inl-mning-API"
         },
         {
             "projectName": "MS Test Shop",
+            "repoWebsite": "github",
+            "repoWebsiteIcon": "github",
             "readMeAddress": "https://raw.githubusercontent.com/bap-ba-bip-boop/MSTestShop/master/README.md",
             "linkToProject": "https://github.com/bap-ba-bip-boop/MSTestShop"
         },
         {
             "projectName": "Web API Projekt",
+            "repoWebsite": "github",
+            "repoWebsiteIcon": "github",
             "readMeAddress": "https://raw.githubusercontent.com/bap-ba-bip-boop/Projekt2WebAPIProject/master/README.md",
             "linkToProject": "https://github.com/bap-ba-bip-boop/Projekt2WebAPIProject"
         }

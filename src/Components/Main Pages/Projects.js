@@ -27,6 +27,8 @@ export const Projects = props => {
                     selectedEducation={openEducation}
                     openEducation={changeSelected}
                     educationIndex={i+""}
+                    repoWebsite={proj.repoWebsite}
+                    repoWebsiteIcon={proj.repoWebsiteIcon}
               />
           )
       }</>

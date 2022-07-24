@@ -31,8 +31,8 @@ export const ProjectComponent = props => {
                     <ReactMarkdown className='projectContainer'>{content}</ReactMarkdown>
                     
                     <a className = 'socialMediaLink' href={props.linkToProject}>
-                    <box-icon color='white' name='github' type='logo'/>
-                    github
+                    <box-icon color='white' name={props.repoWebsiteIcon} type='logo'/>
+                    {props.repoWebsite}
                     </a>
                 </>
             )
