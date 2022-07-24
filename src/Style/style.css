@@ -167,3 +167,37 @@
 .socialMediaLink:hover{
     background-color: rgb(64, 0, 64);
 }
+
+/*Project Page*/
+
+.projectContainter{
+    border: 1px solid purple;
+    border-radius: 5px;
+    display: block;
+    color: black;
+    margin: 0.5vh 0vw;
+    padding: 0vh 1vw;
+}
+
+.projectContainter:hover{
+    cursor: pointer;
+}
+
+.projectContainerSmallTitle{
+    color: purple;
+}
+
+.projectContainer h1{
+    color: purple;
+}
+
+.projectContainer ul{
+    list-style-type: disc;
+    display: block;
+    margin: 0.5vh 0vw;
+    padding: 0vh 1vw;
+}
+
+.projectContainer p strong{
+    color: purple;
+}

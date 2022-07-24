@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import ReactMarkdown from 'react-markdown'
 
 import appSettings from '../../../Settings/Components/Main Pages/Main Components/ProjectComponent.json';
 import 'boxicons';
@@ -6,32 +7,44 @@ import 'boxicons';
 export const ProjectComponent = props => {
 
     const local = appSettings.local.find(loc => loc.languageTag === props.languageTag);
+    const [content, setContent] = useState();
   
+    useEffect( () =>{
+        fetch(props.readMeAddress)
+            .then(res => res.text())
+            .then((md) => {
+                setContent(md)
+              })
+    }, [])
+
   return (
-    <a className='workplaceContainter' href='#' onClick={ () => props.openEducation(props.educationIndex)}>
-        <h2>{props.projectName}</h2>
+    <div className='projectContainter'>
+
+        {
+            props.educationIndex !== props.selectedEducation && <h2 className='projectContainerSmallTitle'>{props.projectName}</h2>
+        }
 
         {
             props.educationIndex === props.selectedEducation &&
             (
                 <>
-                    <p>description goes here</p>
+                    <ReactMarkdown className='projectContainer'>{content}</ReactMarkdown>
                     
                     <a className = 'socialMediaLink' href={props.linkToProject}>
-                    <box-icon color='white' name="github" type='logo'/>
+                    <box-icon color='white' name='github' type='logo'/>
                     github
                     </a>
                 </>
             )
         }
 
-        <p className='workplaceContainterMessage'>
+        <p className='workplaceContainterMessage' onClick={ () => props.openEducation(props.educationIndex)}>
             {
             props.educationIndex !== props.selectedEducation ?
             local.showMore :
             local.showLess
             }
         </p>
-    </a>
+    </div>
   )
 }

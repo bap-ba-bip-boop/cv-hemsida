@@ -10,7 +10,7 @@ export const Links = () => {
           <a className = 'socialMediaLink' key = {i} href={link.link}>
             <box-icon color='white' name={link.linkIcon} type='logo'/>
             {link.linkText}
-            </a>
+          </a>
         )
     }
     </>

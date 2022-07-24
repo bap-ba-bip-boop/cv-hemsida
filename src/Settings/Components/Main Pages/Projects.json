@@ -1,6 +1,11 @@
 {
     "projects": [
         {
+            "projectName": "This Website",
+            "readMeAddress": "https://raw.githubusercontent.com/bap-ba-bip-boop/cv-hemsida/source/README.md",
+            "linkToProject": "https://github.com/bap-ba-bip-boop/cv-hemsida"
+        },
+        {
             "projectName": "Case Assignment HTML",
             "readMeAddress": "https://raw.githubusercontent.com/bap-ba-bip-boop/Case-Assignment-HTML/master/README.md",
             "linkToProject": "https://github.com/bap-ba-bip-boop/Case-Assignment-HTML"
