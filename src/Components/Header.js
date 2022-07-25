@@ -11,7 +11,6 @@ export const Header = props => {
       <p>{appSettings.Email}</p>
       <p>{appSettings.Telephone}</p>
       <p>{appSettings.Address}</p>
-      <p>{appSettings.Id}</p>
     </header>
   )
 }
