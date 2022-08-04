@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import appSettings from './Settings/App.json';
 import { Header } from './Components/Header';
@@ -12,8 +12,14 @@ export const App = () => {
   const [languageIndex, setLanguageIndex] = useState(0);
   const [activePage, SetActivePage] = useState(appSettings.pages[languageIndex]);
 
+
   const changeActivePage = input => {
     SetActivePage(input);
+  }
+
+  const setPageTitle = input => {
+    const titlePost = "CV - Carl Bergqvist"
+    document.title = input + " - " + titlePost;
   }
 
   const getNextLanguageTag =()=>
@@ -26,6 +32,12 @@ export const App = () => {
   const changeActiveLanguage = () => {
     setLanguageIndex(getNextLanguageTag());
   }
+
+  useEffect(
+    () => {
+      setPageTitle(activePage);
+    }
+  )
 
   return (
     <div className="siteContainer">
