@@ -12,6 +12,7 @@ export const Skills = props => {
     <>
       <section>
         <h2 className='skillsTitle'>{local.ITStuffTitle}</h2>
+        <hr/>
         {
         local.ITStuff.map( (category,i) =>
             <ITStuffComponent
@@ -24,6 +25,7 @@ export const Skills = props => {
       </section>
       <section>
         <h2 className='skillsTitle'>{local.languageTitle}</h2>
+        <hr/>
         {
         local.spokenLanguages.map( (language,i) =>
           <LanguageComponent
@@ -36,6 +38,8 @@ export const Skills = props => {
       </section>
       <section>
         <h2 className='skillsTitle'>{local.DriversLicense}</h2>
+
+        <hr/>
         <p className='driversLicenseType'>{local.DriversLicenceType}</p>
       </section>
     </>

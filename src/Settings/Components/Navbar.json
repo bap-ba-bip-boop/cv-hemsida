@@ -4,8 +4,8 @@
         "languageTag": "EN",
         "Summary":"Summary",
         "Skills":"Skills",
-        "Workplaces":"Earlier Workplaces",
-        "Education":"Educations",
+        "Workplaces":"Experiences",
+        "Education":"Education",
         "Projects":"Projects",
         "Links":"Links"
     },
@@ -13,8 +13,8 @@
         "languageTag": "SV",
         "Summary":"Sammanfattning",
         "Skills":"Kunskaper",
-        "Workplaces":"Tidigare Arbetsplatser",
-        "Education":"Utbildningar",
+        "Workplaces":"Erfarenheter",
+        "Education":"Utbildning",
         "Projects":"Projekt",
         "Links":"Länkar"
     }

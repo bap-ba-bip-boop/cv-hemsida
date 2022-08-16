@@ -15,6 +15,7 @@ export const EducationComponent = props => {
     {
         props.educationIndex === props.selectedEducation &&
         (
+            <>
             <section className='workplaceContainterContent'>
                 <ul className='workplaceContainterList'>
                     {props.notes.map( resp =>
@@ -22,6 +23,7 @@ export const EducationComponent = props => {
                     )}
                 </ul>
             </section>
+            </>
         )
     }
     <p className='workplaceContainterMessage'>
