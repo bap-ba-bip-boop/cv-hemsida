@@ -22,9 +22,6 @@ export const Main = props => {
       {props.activePage === "Education" && <Education
         languageTag={props.languageTag}
         />}
-      {props.activePage === "Links" && <Links
-        languageTag={props.languageTag}
-        />}
       {props.activePage === "Projects" && <Projects
         languageTag={props.languageTag}
         />}

@@ -11,7 +11,21 @@ export const Header = props => {
           <a className='languageLink' href='#' onClick={() => props.changeLanguage()}>{props.nextLanguageTag}</a>
         </div>
         <hr/>
-        <p>email: {appSettings.Email} | tel: {appSettings.Telephone}</p>
+
+        <div className='headervertdisp'>
+          <p>email: {appSettings.Email} | tel: {appSettings.Telephone}</p>
+          <div>
+          {
+            appSettings.links.map( (link, i) => 
+              <a className = 'socialMediaLink' key = {i} href={link.link}>
+                <box-icon color='white' name={link.linkIcon} type='logo'/>
+                {link.linkText}
+              </a>
+            )
+          }
+          </div>
+        </div>
+
       </div>
       <img className='headerPicture' src={image}></img>
     </header>

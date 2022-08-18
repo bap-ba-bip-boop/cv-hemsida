@@ -3,5 +3,18 @@
     "Name": "Carl Bergqvist",
     "Email": "calle.be@telia.com",
     "Telephone": "070 - 35 87 927",
-    "Address": "Thaliavägen 66, 167 75 Bromma"
+    "Address": "Thaliavägen 66, 167 75 Bromma",
+    "links":
+    [
+        {
+            "linkText":"linkedin",
+            "link":"https://www.linkedin.com/in/carl-bergqvist-b06875195",
+            "linkIcon": "linkedin-square"
+        },
+        {
+            "linkText": "github",
+            "link":"https://github.com/bap-ba-bip-boop",
+            "linkIcon": "github"
+        }
+    ]
 }

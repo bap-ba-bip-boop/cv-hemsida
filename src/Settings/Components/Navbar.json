@@ -6,8 +6,7 @@
         "Skills":"Skills",
         "Workplaces":"Experiences",
         "Education":"Education",
-        "Projects":"Projects",
-        "Links":"Links"
+        "Projects":"Projects"
     },
     {
         "languageTag": "SV",
@@ -15,8 +14,7 @@
         "Skills":"Kunskaper",
         "Workplaces":"Erfarenheter",
         "Education":"Utbildning",
-        "Projects":"Projekt",
-        "Links":"Länkar"
+        "Projects":"Projekt"
     }
 ]
 }
