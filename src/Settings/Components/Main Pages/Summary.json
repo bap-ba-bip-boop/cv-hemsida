@@ -2,29 +2,13 @@
     "local":[
         {
             "languageTag": "EN",
-            "goalTitle": "Goals",
-            "goalText": "My goals are to develop my skills in programming by learning to write code of a hihg standard. I also want to learn a lot more in related areas that can help me with coding",
-            "profileTitle": "Profile",
-            "profileContent":[
-                "Goal driven individual striving for personal development.",
-                "Earlier work experience in IT",
-                "Educated .Net developer"
-            ],
-            "personalTitle": "Personal",
-            "personalContent": "I live in Bromma. In my free time I like reading, cooking and working on small projects. My friends describe me as analytic and a good listener"
+            "goalTitle": "Summary",
+            "goalText": "I'm a student looking for a 'LIA'(Lärande I Arbete) /internship in the programming world within .NET. I have a lot of knowledge in IT and am always looking to expand what I know. I'm described as a determined and analytical person and always try to do my best when collaborating with colleagues and peers. In my spare time I like to tinker with small projects."
         },
         {
             "languageTag": "SV",
-            "goalTitle": "Mål",
-            "goalText": "Mina mål är att utveckla mina kunskaper inom programmeringsbranchen genom att lära mig skriva kod av hög standard och lära mig mer om relaterade områden som kan hjälpa",
-            "profileTitle": "Profil",
-            "profileContent":[
-                "Målmedveten person som strävar efter personlig utveckling.",
-                "Tidigare erfarenhet av arbete inom IT",
-                "Utbildning som .Net utvecklare"
-            ],
-            "personalTitle": "Personligt",
-            "personalContent": "Jag bor i Bromma. På min fritid gillar jag att läsa, laga mat och pyssla med småprojekt(ex bildredigering). Mina vänner beskriver mig som analytisk och en bra lyssnare"
+            "goalTitle": "Sammanfattning",
+            "goalText": "Jag är en student som söker LIA/praktik i programmeringsbranschen inom .NET. Jag har många kunskaper inom IT och söker alltid att utöka det jag kan. Jag beskrivs som en målmedveten och analytisk person och försöker alltid göra mitt bästa när jag ska samarbetar med kollegor och kamrater. På min fritid gillar jag att pyssla med småprojekt."
         }
     ]
 }
