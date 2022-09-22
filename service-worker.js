@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cv-hemsida/precache-manifest.c162700906c2f336d430c365eac71faf.js"
+  "/cv-hemsida/precache-manifest.d87c81ed46c2ec1c95bf7c01986b62b0.js"
 );
 
 workbox.clientsClaim();
